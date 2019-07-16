@@ -66,7 +66,7 @@ public class ExampleJilter extends JilterHandlerAdapter {
     public JilterStatus envrcpt(String[] argv, Properties properties)
     {
     	for (String x : argv) {
-			System.out.println("envrcpt "+x+",");
+			//System.out.println("envrcpt "+x+",");
 			recipients = argv;
 		}
         return JilterStatus.SMFIS_CONTINUE;
